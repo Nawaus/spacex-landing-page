@@ -4,11 +4,22 @@ body {
   box-sizing: border-box;
 }
 
+.nav-item {
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.logo {
+  width: 200px;
+}
+
 .container-1 {
   background-image: url(/img/01.jpg);
-  width: 100vh;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   padding: 8em;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .container-1 .arrow {
   width: 80px;
@@ -21,6 +32,8 @@ body {
   background-image: url(/img/03.jpg);
   height: 100vh;
   width: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container-3 {
@@ -31,45 +44,44 @@ body {
   background-size: cover;
   padding: 7em;
 }
-.container-3 img {
-  height: 400px;
-  width: 100%;
-}
 
 .container-4 {
   background-image: url(/img/04.jpg);
   height: 100vh;
-  width: 100vh;
+  background-size: cover;
 }
 
-.container-5 {
-  text-align: center;
-  height: 20vh;
-  width: 100px;
-  margin-top: 27em;
-  background: black;
+.footer {
+  display: flex;
+  height: 120px;
+  background: #000000;
 }
-.container-5 .spacex {
+.footer .spacex {
   color: #555252;
   text-decoration: none;
   font-size: 0.7em;
 }
-.container-5 .links {
+.footer .links {
   color: #fff;
   text-decoration: none;
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
-.container-5 .links:hover {
+.footer .links:hover {
   color: #b9b9b9;
 }
 
 .content {
   padding: 10em;
-  color: white;
+  color: #fff;
 }
 
 .btn {
   margin-top: 3em;
+}
+
+div {
+  font-size: 200px;
+  color: red;
 }
 
 /*# sourceMappingURL=style.css.map */

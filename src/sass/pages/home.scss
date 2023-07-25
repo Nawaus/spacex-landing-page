@@ -4,11 +4,26 @@ body {
   box-sizing: border-box;
 }
 
+$primary-color: #fff;
+$secondary-color: #000000;
+$link-color: #555252;
+$hover-color: #b9b9b9;
+
+.nav-item {
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.logo {
+  width: 200px;
+}
 .container-1 {
   background-image: url(/img/01.jpg);
-  width: 100vh;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   padding: 8em;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   .arrow {
     width: 80px;
@@ -23,6 +38,8 @@ body {
   background-image: url(/img/03.jpg);
   height: 100vh;
   width: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container-3 {
@@ -32,45 +49,42 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 7em;
-  img {
-    height: 400px;
-    width: 100%;
-  }
 }
 
 .container-4 {
   background-image: url(/img/04.jpg);
   height: 100vh;
-  width: 100vh;
+
+  background-size: cover;
 }
 
-.container-5 {
-  text-align: center;
-  height: 20vh;
-  width: 100px;
-  margin-top: 27em;
-  background: black;
+.footer {
+  display: flex;
+
+  height: 120px;
+
+  background: $secondary-color;
 
   .spacex {
-    color: #555252;
+    color: $link-color;
     text-decoration: none;
     font-size: 0.7em;
   }
 
   .links {
-    color: #fff;
+    color: $primary-color;
     text-decoration: none;
-    font-size: 0.8em;
+    font-size: 0.7em;
 
     &:hover {
-      color: #b9b9b9;
+      color: $hover-color;
     }
   }
 }
 
 .content {
   padding: 10em;
-  color: white;
+  color: $primary-color;
 }
 
 .btn {
