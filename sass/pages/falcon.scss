@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+$primary-color: #fff;
+$secondary-color: #000000;
+$link-color: #555252;
+$hover-color: #b9b9b9;
+
+.navbar {
+  margin: 0;
+}
+
+.nav-item {
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.logo {
+  width: 250px;
+}
+
+.container-main-falcon {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-image: url(/img/1.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.falcon-text {
+  font-family: "Roboto", sans-serif;
+  margin: 250px;
+  color: $primary-color;
+  h1 {
+    font-size: 5em;
+    font-weight: 700;
+  }
+  p {
+    font-size: 1.4em;
+  }
+}
+
+.container-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-content: space-around;
+  background-color: $secondary-color;
+  color: $primary-color;
+  text-align: center;
+  padding: 4em;
+  flex-wrap: wrap;
+  p {
+    font-size: 5em;
+  }
+  .infos {
+    font-size: 1.4em;
+  }
+}
+
+.content {
+}
+
+.falcon-info {
+  background-image: url(/img/2.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10em;
+
+  .falcon-info-text {
+    color: $primary-color;
+    font-size: 1.5em;
+    width: 500px;
+  }
+}

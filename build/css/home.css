@@ -4,11 +4,6 @@ body {
   box-sizing: border-box;
 }
 
-$primary-color: #fff;
-$secondary-color: #000000;
-$link-color: #555252;
-$hover-color: #b9b9b9;
-
 .nav-item {
   font-size: 0.8em;
   font-weight: 700;
@@ -17,6 +12,7 @@ $hover-color: #b9b9b9;
 .logo {
   width: 200px;
 }
+
 .container-1 {
   background-image: url(/img/01.jpg);
   height: 100%;
@@ -24,14 +20,12 @@ $hover-color: #b9b9b9;
   padding: 8em;
   background-repeat: no-repeat;
   background-size: cover;
-
-  .arrow {
-    width: 80px;
-  }
-
-  figure {
-    text-align: center;
-  }
+}
+.container-1 .arrow {
+  width: 80px;
+}
+.container-1 figure {
+  text-align: center;
 }
 
 .container-2 {
@@ -54,39 +48,35 @@ $hover-color: #b9b9b9;
 .container-4 {
   background-image: url(/img/04.jpg);
   height: 100vh;
-
   background-size: cover;
 }
 
 .footer {
   display: flex;
-
   height: 120px;
-
-  background: $secondary-color;
-
-  .spacex {
-    color: $link-color;
-    text-decoration: none;
-    font-size: 0.7em;
-  }
-
-  .links {
-    color: $primary-color;
-    text-decoration: none;
-    font-size: 0.7em;
-
-    &:hover {
-      color: $hover-color;
-    }
-  }
+  background: #000000;
+}
+.footer .spacex {
+  color: #555252;
+  text-decoration: none;
+  font-size: 0.7em;
+}
+.footer .links {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.7em;
+}
+.footer .links:hover {
+  color: #b9b9b9;
 }
 
 .content {
   padding: 10em;
-  color: $primary-color;
+  color: #fff;
 }
 
 .btn {
   margin-top: 3em;
 }
+
+/*# sourceMappingURL=home.css.map */

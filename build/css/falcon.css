@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.navbar {
+  margin: 0;
+}
+
+.nav-item {
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.logo {
+  width: 250px;
+}
+
+.container-main-falcon {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-image: url(/img/1.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.falcon-text {
+  font-family: "Roboto", sans-serif;
+  margin: 250px;
+  color: #fff;
+}
+.falcon-text h1 {
+  font-size: 5em;
+  font-weight: 700;
+}
+.falcon-text p {
+  font-size: 1.4em;
+}
+
+.container-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-content: space-around;
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 4em;
+  flex-wrap: wrap;
+}
+.container-numbers p {
+  font-size: 5em;
+}
+.container-numbers .infos {
+  font-size: 1.4em;
+}
+
+.falcon-info {
+  background-image: url(/img/2.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10em;
+}
+.falcon-info .falcon-info-text {
+  color: #fff;
+  font-size: 1.5em;
+  width: 500px;
+}
+
+/*# sourceMappingURL=falcon.css.map */
